@@ -8,6 +8,7 @@ const connection = mysql.createConnection({
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
+  connectTimeout: 100000
 });
 
 connection.connect(function (err) {
