@@ -26,7 +26,7 @@ const sendMail = (receiver, sender, msg, subject) => {
     .send(msgToSend)
     .then((response) => {
       console.log(response);
-      return 200;
+      return { message: response };
     })
     .catch((error) => {
       console.log(error);
