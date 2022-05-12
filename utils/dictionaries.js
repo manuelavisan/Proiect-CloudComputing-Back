@@ -12,6 +12,7 @@ const LANGUAGE_ISO_CODE = {
     'NORWEGIAN': 'no',
     'POLISH': 'pl',
     'HUNGARIAN': 'hu',
+    'UKRAINIAN': 'uk',
 };
 
 module.exports = {
